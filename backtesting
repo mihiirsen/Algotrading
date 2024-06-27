@@ -1,0 +1,23 @@
+simulate me dale se pehle hame entry/exit points btane hote,toh ye entry exit entries pta lgane ke lie isne pehle rsi nikala,jb 30 se niche toh entry point, 70 se upr exit point
+Note : jb woh just 30 ke niche gya ya jb just 70 ke upr gya tb hi use kr rhe as entry exit point pr even that works ki 30 ke niche sb aur 70 ke upr sb extry exit point
+
+rsi se jaise ham apne b indicator bna skte,kaise?,pehle ek function bnao pytho ka jo pichli values leke koi value return kr rha ho,ab ek indicator factory bnao jisme recipe likho ki kya lega kya dega,fir is factory ko redirect kro apne function pe,bs ab is indicator ko jaise run krte the waise hi krlo ,enntry exit point niklwa lo is indicator se
+
+Hyper Parameters and their optimzation...bs ru krte time vec tor do instead of value , product=true krdena sbke cases leke krlega...jaise rsi,ma,entry,exit ko hyperparameter rkh ke 
+
+visualization usig box-heatmap when two parameters(hr parameter ki list hai) ka ek doosre se effecct dekhna,jb teen parameters ka ek dossre se effect dekhna toh volume ,use slider when more stocks(visualizing different parameter values for an output like return)
+
+Use wrapper libraries like talib,jet which are in C making RSI calc faster,just use talib.rsi to calulate and while calculatio use.real isterad of rsi.rsi...njit is lot easier just write @njit and it makes your custom indicator in assembly language
+
+(i have skipped where you make loops for RAM Management, also resampling from 1min to 5min data)
+
+Plotting different graphs,also differet graphs on same screen, size/theme of plots
+
+adding take_profit, stop loss values, also sl_trail value, exit options like reverse/reduce/reversereduce or simply close
+
+how to make a short only portfolio,just entries ko short exit me daaldia aur exit ko short etry me .fromsignnals wale me.....similalarly for long only entry
+
+how to make a combined portfolio,simply entries=entries1 exit1=exit1 shortentries=entries2 shortexits=exits2 these entries1,2 exits1,2 tumhe dilwane prhenge like from rsi ma etc
+but now you have to solve conflicts ar ek ne short ek ne long bola toh decide kro kiski sunoge
+
+
